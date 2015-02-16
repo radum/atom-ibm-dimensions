@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle atom-ibm-dimensions'
+      'command': 'atom-ibm-dimensions:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'atom-ibm-dimensions'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'atom-ibm-dimensions:toggle'
+        }
+      ]
+    ]
+  }
+]
