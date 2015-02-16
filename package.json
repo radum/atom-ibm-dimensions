@@ -1,15 +1,16 @@
 {
   "name": "atom-ibm-dimensions",
   "main": "./lib/atom-ibm-dimensions",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.1.0",
+  "description": "IBM Data Collection / Dimensions Support for atom (syntax, snippets, metadata validation, mdd, dms)",
   "activationCommands": {
     "atom-workspace": "atom-ibm-dimensions:toggle"
   },
-  "repository": "https://github.com/atom/atom-ibm-dimensions",
+  "homepage": "https://github.com/radum/atom-ibm-dimensions",
+  "repository": "https://github.com/radum/atom-ibm-dimensions",
   "license": "MIT",
   "engines": {
-    "atom": ">=0.174.0 <2.0.0"
+    "atom": ">=0.174.0"
   },
   "dependencies": {
   }
